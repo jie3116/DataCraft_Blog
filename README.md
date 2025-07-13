@@ -5,7 +5,8 @@ Sebuah aplikasi blog sederhana yang dikembangkan menggunakan Python dan Flask. P
 ## 🚀 Fitur Utama
 
 - Tampilkan daftar artikel blog
-- Buat dan simpan postingan baru
+- Buat, edit dan simpan postingan baru
+- Register, Login User
 - Validasi form menggunakan Flask-WTF
 - Template dinamis dengan Jinja2
 - Struktur proyek terorganisir (modular)
@@ -22,7 +23,6 @@ Sebuah aplikasi blog sederhana yang dikembangkan menggunakan Python dan Flask. P
 
 ## 📂 Struktur Proyek
 
-.
 ├── static/ # Aset statis (CSS, JS, gambar)
 
 ├── templates/ # Template HTML
@@ -56,9 +56,9 @@ python main.py
 
 Akses di browser:
 http://localhost:5000
+
 ❗ Catatan
 Folder static/assets/img sudah dihapus dari tracking Git melalui .gitignore untuk mencegah file gambar yang besar atau sensitif masuk ke repository.
-
 Pastikan direktori tersebut tetap ada secara lokal agar template dapat merender gambar dengan benar.
 
 🤝 Kontribusi
